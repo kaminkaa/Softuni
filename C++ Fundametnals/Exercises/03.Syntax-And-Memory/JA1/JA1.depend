@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1490711323 source:d:\cammi\c++ fundametnals\exercises\03.syntax-and-memory\ja1\task1.cpp
+	<iostream>
+	<sstream>
+	<iomanip>
+
+1490862279 source:d:\cammi\c++ fundametnals\exercises\03.syntax-and-memory\ja1\task2.cpp
+	<iostream>
+	<string>
+
+1491494736 source:d:\cammi\c++ fundametnals\exercises\03.syntax-and-memory\ja1\task3.cpp
+	<iostream>
+
+1491602874 source:d:\cammi\c++ fundametnals\exercises\03.syntax-and-memory\ja1\task4.cpp
+	<iostream>
+	<sstream>
+	<vector>
+

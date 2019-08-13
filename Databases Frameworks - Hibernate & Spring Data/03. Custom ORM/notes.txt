@@ -1,0 +1,12 @@
+Maven: Нещо, с което да се конфигурира как да работи application-a.
+-> Може да има application variables: ако е за production да сложи за connection string реалната база, ако е за development да сложи локалната.
+-> Може да се зареждат dependency-та: когато искаме една библиотека без да се налага да я търсим в интернет и да я теглим, казваме на Maven коя 
+библиотека и коя версия ни трябва и Maven знае от къде да я намери и да си я свали и да се получи в app-а.
+-> Кешира си библиотеките. 
+
+Създаване на нов проект с Maven:
+* GroupId: началото на namaspace-те и package-те.
+* ArtifactId: името на application-a.
+* pom.xml: да зарежда и други библиотеки, които могат да бъдат намерени в интернет като maven repository-та, които се copy-paste-ват в pom.xml в dependencies.
+	Натиска се "Enable auto import".
+* Няма main клас, затова се прави един клас, който ще е main и в configurations се казва кой е той.

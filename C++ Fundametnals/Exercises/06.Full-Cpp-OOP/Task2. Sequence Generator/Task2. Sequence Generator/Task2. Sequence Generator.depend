@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1492373033 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\sequencegenerator.cpp
+	"SequenceGenerator.h"
+
+1492445123 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\sequencegenerator.h
+	<iostream>
+
+1492449689 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\main.cpp
+	<iostream>
+	<math.h>
+	<sstream>
+	"SqrtGenerator.h"
+	"FibonacciGenerator.h"
+
+1492441373 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\sqrtgenerator.h
+	<iostream>
+	<math.h>
+	<sstream>
+	"SequenceGenerator.h"
+
+1492449515 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\sqrtgenerator.cpp
+	"SqrtGenerator.h"
+
+1492449996 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\fibonaccigenerator.cpp
+	"FibonacciGenerator.h"
+
+1492447042 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task2. sequence generator\task2. sequence generator\fibonaccigenerator.h
+	<iostream>
+	<math.h>
+	<sstream>
+	"SequenceGenerator.h"
+

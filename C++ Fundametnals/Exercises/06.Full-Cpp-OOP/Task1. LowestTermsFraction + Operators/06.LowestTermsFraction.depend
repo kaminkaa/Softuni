@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1491215218 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task1. lowesttermsfraction + operators\fraction.cpp
+	"Fraction.h"
+
+1491215454 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task1. lowesttermsfraction + operators\fraction.h
+	<ostream>
+	<istream>
+
+1492078545 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task1. lowesttermsfraction + operators\main.cpp
+	<iostream>
+	"Fraction.h"
+

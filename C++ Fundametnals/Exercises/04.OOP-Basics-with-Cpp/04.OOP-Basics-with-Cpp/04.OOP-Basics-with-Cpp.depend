@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1491141053 source:d:\cammi\c++ fundametnals\exercises\04.oop-basics-with-cpp\04.oop-basics-with-cpp\task1.cpp
+	<iostream>
+	<sstream>
+
+1491296356 source:d:\cammi\c++ fundametnals\exercises\04.oop-basics-with-cpp\04.oop-basics-with-cpp\task2.cpp
+	<iostream>
+	<string>
+

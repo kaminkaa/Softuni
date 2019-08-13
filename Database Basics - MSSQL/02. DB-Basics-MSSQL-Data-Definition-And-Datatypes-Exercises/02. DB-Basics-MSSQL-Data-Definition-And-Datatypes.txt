@@ -1,0 +1,29 @@
+Data Types in SQL:
+
+numeric = decimal 
+varchar si e za angliiski bukvi 
+nvarchar poddurja bulgarski, kitaiski bukvi i tn 
+za snimki - varbinary
+v saita na microsoft gi ima vsichkite tipove danni 
+
+
+Database Modeling: 
+
+Identity - avtomatichno se uvelichava stoinostta pri vseki sledvasht zapis (ID colona koqto avtomatichno da se uvelichava)
+V column properties  -> Identity specification za izbranata kolonka se naglasq avtomatichno da se uvelichava
+Ot table toobar moje da se dobavqt relationships 
+Table properties -> da se zadade imeto na tablizata
+bazata moje da se izpolzva v sait
+
+
+Basic SQL Queries:
+
+Pishe se v New Query
+Ne e case sensitive 
+trqbva da izberem ot padashtia spisuk na user interface-a s za koq data baza e query-to 
+kogato ima poveche ot 1 zaqvka v edin fail - ili se iztriva tazi s koqto e priklucheno ili se selectira jelanata zaqvka i se natiska execute za da ne se izpulnqvat i dvete
+reda v koito se pravi opisanie na kolonka nqma znachenie 
+kato trqbva da se iztrie tabliza i da se napravi otnovo ako se pazi query-to s koeto e napravena sled tova po lesno moje da se editne i da se vuzstanovi 
+
+
+

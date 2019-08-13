@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1493134297 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\figure.cpp
+	"Figure.h"
+
+1493393676 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\figure.h
+	<iostream>
+
+1493393685 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\pawn.cpp
+	"Pawn.h"
+	<sstream>
+
+1492789928 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\pawn.h
+	<iostream>
+	"Figure.h"
+
+1493585542 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\main.cpp
+	"Pawn.h"
+	"Knight.h"
+	"Bishop.h"
+	"Rook.h"
+	"Queen.h"
+
+1493386358 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\knight.cpp
+	"Knight.h"
+	<sstream>
+
+1493200574 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\knight.h
+	<iostream>
+	"Figure.h"
+
+1493386483 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\bishop.cpp
+	"Bishop.h"
+	<sstream>
+
+1493376796 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\bishop.h
+	<iostream>
+	"Figure.h"
+
+1493405949 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\rook.cpp
+	"Rook.h"
+	<sstream>
+
+1493393756 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\rook.h
+	<iostream>
+	"Figure.h"
+
+1493584108 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\queen.cpp
+	"Queen.h"
+	<sstream>
+
+1493587334 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\queen.h
+	<iostream>
+	"Figure.h"
+
+1493589304 source:d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\king.cpp
+	"King.h"
+	<sstream>
+
+1493589326 d:\cammi\c++ fundametnals\exercises\06.full-cpp-oop\task4. chessfigures\king.h
+	<iostream>
+	"Figure.h"
+

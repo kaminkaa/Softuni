@@ -1,0 +1,33 @@
+view tablizata ne se zapazva, tq e virtualna i e samo za udobstvo na potrebitelq na databazata
+order by se pishe v kraq na zaqvkata, no se izpulnqva v nachaloto 
+
+
+CRUD
+--Create
+insert into Projects (Name,Description,StartDate,EndDate)
+values ('SQL Managemnt','Management System',getdate(),null),
+	   ('SQL Code','IDE for SQL queries','11-11-2016',null)
+	   
+--Read
+select Name,Description from Projects 
+where Name='SQL Code'
+
+--Update
+update Projects
+set Name='SQL Management' where Name='SQL Managemnt'
+
+--Delete
+delete from Projects
+where Name='SQL Code' or Name='SQL Management'
+
+
+Views
+create view v_Employees
+as
+select FirstName + '' + isnull(MiddleName,'') + '' + LastName as FullName,
+	   Salaray, 
+	   JobTitle
+from Employees 
+go
+select * from v_Employees	   
+	 
