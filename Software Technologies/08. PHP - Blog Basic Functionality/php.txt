@@ -1,0 +1,24 @@
+start xampp
+
+php composer.phar install
+
+php bin/console doctrine:database:create --if-not-exists
+
+
+po jelanie:
+
+triq entity
+
+php bin/console doctrine:generate:entity
+
+AppBundle:{name}
+
+php bin/console doctrine:schema:update --force
+
+
+php bin/console server:run
+
+
+
+
+
