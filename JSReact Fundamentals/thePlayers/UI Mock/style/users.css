@@ -1,0 +1,51 @@
+.usersWrapper {
+    background-color: rgba(51, 51, 51, 0.74);
+    width: 88%;
+    height: 700px;
+    padding: 15px;
+    margin: auto;
+}
+
+.userEdit {
+    width: 350px;
+    height: 255px;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.671);
+    border: 1px #333 solid;
+}
+
+.editUserForm {
+    margin-top: 13px;
+}
+
+.editUserForm .formAdmin {
+    width: 90%;
+}
+
+.formAdmin {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.editUserBtn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.editUserBtn input {
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.disabledInput {
+    pointer-events: none;
+    background-color: rgb(238, 238, 238);
+}
+
+.disabledBtn {
+    display: none;
+}

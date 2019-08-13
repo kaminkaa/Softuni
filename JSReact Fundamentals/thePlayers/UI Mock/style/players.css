@@ -1,0 +1,65 @@
+.playersWrapper {
+    background-color: rgba(51, 51, 51, 0.74);
+    width: 88%;
+    min-height: 700px;
+    padding: 15px;
+    margin: auto;
+}
+
+.addPlayerForm,
+.editPlayerForm {
+    margin-top: 13px;
+}
+
+.addPlayerBtn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.addPlayerBtn input {
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.playerAdd,
+.playerEdit {
+    width: 350px;
+    height: 350px;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.playerAdd {
+    background-color: #4CAF50;
+}
+
+.playerEdit {
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.addPlayerForm .formAdmin,
+.editPlayerForm .formAdmin {
+    width: 90%;
+}
+
+.playerAdd,
+.playerEdit {
+    border: 1px #333 solid;
+}
+
+.disabledInput {
+    pointer-events: none;
+    background-color: rgb(238, 238, 238);
+}
+
+.formAdmin {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.disabledBtn {
+    display: none;
+}

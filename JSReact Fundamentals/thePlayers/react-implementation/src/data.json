@@ -1,0 +1,97 @@
+{
+    "users": [{
+            "id": "1",
+            "username": "kaminka",
+            "firstName": "Kameliya",
+            "lastName": "Nacheva",
+            "money": "9999999999",
+            "password": "nacheva93",
+            "players": [{
+                    "id": "1",
+                    "playerName": "Luca Modric"
+                },
+                {
+                    "id": "2",
+                    "playerName": "Thibaut Courtois"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "username": "futbolista95",
+            "firstName": "Joro",
+            "lastName": "Georgiev",
+            "money": "20000000",
+            "password": "asdasd",
+            "players": [{
+                "id": "3",
+                "playerName": "Kevin De Bruyne"
+            }]
+        },
+        {
+            "id": "3",
+            "username": "pinkPrincesss",
+            "firstName": "Petia",
+            "lastName": "Rezova",
+            "money": "3459876600",
+            "password": "123456",
+            "players": [{
+                "id": "4",
+                "playerName": "Thomas Vermaelen"
+            }]
+        },
+        {
+            "id": "4",
+            "username": "vali0",
+            "firstName": "Valio",
+            "lastName": "Petrov",
+            "money": "880000000",
+            "password": "a1a1a1"
+        }
+    ],
+    "players": [{
+            "id": "1",
+            "name": "Luca Modric",
+            "image": "https://www.realmadrid.com/img/vertical_380px/10_modric_380x501.jpg",
+            "age": "32",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "owner": "Real Madrid",
+            "ranking": "1",
+            "price": "1000000"
+        },
+        {
+            "id": "2",
+            "name": "Thibaut Courtois",
+            "image": "https://www.realmadrid.com/img/vertical_380px/courtois.jpg",
+            "age": "26",
+            "position": "Goalkeeper ",
+            "preferredFoot": "Right",
+            "owner": "Real Madrid",
+            "ranking": "2",
+            "price": "99999"
+        },
+        {
+            "id": "3",
+            "name": "Kevin De Bruyne",
+            "image": "https://mediacdn.mancity.com/-/media/images/shared/players/2018-19-images/kdb-col.ashx",
+            "age": "27",
+            "position": "Midfielder",
+            "preferredFoot": "Right",
+            "owner": "Manchester City",
+            "ranking": "3",
+            "price": "500999"
+        },
+        {
+            "id": "4",
+            "name": "Thomas Vermaelen",
+            "image": "https://media-public.fcbarcelona.com/20157/0/document_thumbnail/20197/215/219/190/96394199/1.0-7/96394199.jpg?t=1534860167000",
+            "age": "32",
+            "position": "Centre-back",
+            "preferredFoot": "Right",
+            "owner": "FC Barcelona",
+            "ranking": "4",
+            "price": "200000"
+        }
+    ]
+}

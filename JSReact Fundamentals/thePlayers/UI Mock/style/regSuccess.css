@@ -1,0 +1,21 @@
+.regSuccess {
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    align-content: center;
+}
+
+.regSuccessLink {
+    color: #333;
+    text-decoration: none;
+}
+
+.regSuccessLink:visited {
+    color: #333;
+}
+
+.regSuccessImg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

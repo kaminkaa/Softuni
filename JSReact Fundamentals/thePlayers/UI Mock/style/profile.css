@@ -1,0 +1,46 @@
+.profileWrapper {
+    background-color: rgba(51, 51, 51, 0.74);
+    width: 88%;
+    min-height: 600px;
+    max-height: 700px;
+    padding: 15px;
+    margin: auto;
+    color: white;
+}
+
+.section {
+    border: 1px white dashed;
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.section h3 {
+    color: white;
+}
+
+.infoTable,
+.playersTable {
+    width: 90%;
+    display: justify;
+}
+
+.offer {
+    border: 1px white solid;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.emojis {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.playersTable td {
+    padding-bottom: 10px;
+}

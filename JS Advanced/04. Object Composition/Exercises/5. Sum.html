@@ -1,0 +1,48 @@
+// objects interacting with dom:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<input type="text" id="num1" />
+<input type="text" id="num2" />
+<input type="text" id="result" readonly />
+<br>
+<button id="sumButton" onclick="sum()">Sum</button>
+<button id="subtractButton" onclick="sub()">Subtract</button>
+<script>
+    function solve() {
+        let element1, element2, result;
+        return {
+            init: function (sel1, sel2, res) {
+                element1 = $(sel1);
+                element2 = $(sel2);
+                result = $(res);
+            },
+            add: function () {
+                result.val(Number(element1.val()) + Number(element2.val()));
+            },
+            subtract: function () {
+                result.val(Number(element1.val()) - Number(element2.val()));
+            }
+        }
+    }
+
+    let obj = solve();
+    function sum () {
+        obj.init('#num1', '#num2', '#result');
+        obj.add();
+    }
+
+    function sub() {
+        obj.init('#num1', '#num2', '#result');
+        obj.subtract();
+    }
+</script>
+</body>
+</html>
