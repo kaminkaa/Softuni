@@ -1,7 +1,0 @@
-Kogato user-a e vleznal v profila si avtomatichno mu se pomni id-to v databazata saotvetstvashto na negoviq user.
-Kogato se publikuva article, tova id, koeto e avtomatichno zapomneno, se pazi kato chast ot informaciata za article-a. Tova id sochi (reference-va) kum Users, otkudeto vzima
-info za user-a (imeto). 
-
-Za vseki user se pazi array ot id-ta na statii. Tezi statii sochat kum Article, otkudeto moje da se dostupi statiata. 
-
-Ne relational database znachi che dori da se iztrie edin user, nqma da dade greshka za drugite neshta, koito sa imali vruzki s nego. Relational database shte dade greshka.
