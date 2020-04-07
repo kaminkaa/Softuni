@@ -1,0 +1,41 @@
+.playerField {
+    background-image: url('../images/5.jpg');
+    background-repeat: no-repeat;
+    width: 88%;
+    height: 600px;
+    padding: 15px;
+    margin: auto;
+}
+
+.playerImage {
+    width: 40%;
+}
+
+.playerInfo {
+    width: 59%;
+}
+
+.playerImage,
+.playerInfo {
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.playerImg {
+    vertical-align: middle;
+    max-width: 380px;
+    max-height: 501px;
+    margin-top: 35px;
+    margin-left: 15px;
+    border: 1px #333 solid;
+    box-shadow: 0 0 2px 1px rgb(243, 248, 246);
+}
+
+.infoText {
+    background-color: rgba(255, 255, 255, 0.801);
+    padding: 20px;
+    border: 1px #333 solid;
+    box-shadow: 0 0 2px 1px rgb(243, 248, 246);
+    width: 500px;
+}
